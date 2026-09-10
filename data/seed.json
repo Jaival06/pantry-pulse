@@ -1,0 +1,5556 @@
+{
+  "menu": [
+    {
+      "item_id": "SAMPLE_01",
+      "item_name": "House Coffee",
+      "category": "Beverage",
+      "selling_price": "4.5",
+      "cost_price": "1.2"
+    },
+    {
+      "item_id": "SAMPLE_02",
+      "item_name": "Iced Tea",
+      "category": "Beverage",
+      "selling_price": "5",
+      "cost_price": "1.4"
+    },
+    {
+      "item_id": "SAMPLE_03",
+      "item_name": "Veggie Sandwich",
+      "category": "Food",
+      "selling_price": "9.5",
+      "cost_price": "4.1"
+    },
+    {
+      "item_id": "SAMPLE_04",
+      "item_name": "Chocolate Muffin",
+      "category": "Food",
+      "selling_price": "4",
+      "cost_price": "1.5"
+    }
+  ],
+  "sales": [
+    {
+      "date": "2026-06-01",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "10",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-01",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "21",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-01",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "32",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-01",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "19",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-02",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-02",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "28",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-02",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-02",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-03",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-03",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-03",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "22",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-03",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-04",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "31",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-04",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "18",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-04",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "29",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-04",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "16",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-05",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-05",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "25",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-05",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-05",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-06",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-06",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-06",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "19",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-06",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-07",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "28",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-07",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "15",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-07",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "26",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-07",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "13",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-08",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-08",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "22",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-08",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-08",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-09",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-09",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-09",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "16",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-09",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-10",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "25",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-10",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "12",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-10",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "23",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-10",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "10",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-11",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-11",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "19",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-11",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-11",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-12",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-12",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-12",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "13",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-12",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-13",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "22",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-13",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "33",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-13",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "20",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-13",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "31",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-14",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-14",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "16",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-14",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-14",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-15",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-15",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-15",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "10",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-15",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-16",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "19",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-16",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "30",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-16",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "17",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-16",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "28",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-17",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-17",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "13",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-17",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-17",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-18",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-18",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-18",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "31",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-18",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-19",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "16",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-19",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "27",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-19",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "14",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-19",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "25",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-20",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-20",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "10",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-20",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-20",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-21",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-21",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-21",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "28",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-21",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-22",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "13",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-22",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "24",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-22",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "11",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-22",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "22",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-23",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-23",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "31",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-23",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-23",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-24",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-24",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-24",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "25",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-24",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-25",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "10",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-25",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "21",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-25",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "32",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-25",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "19",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-26",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-26",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "28",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-26",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-26",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-27",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-27",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-27",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "22",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-27",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-28",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "31",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-28",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "18",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-28",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "29",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-28",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "16",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-29",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-29",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "25",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-29",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-29",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-30",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-30",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-30",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "19",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-06-30",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-01",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "28",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-01",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "15",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-01",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "26",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-01",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "13",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-02",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-02",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "22",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-02",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-02",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-03",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-03",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-03",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "16",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-03",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-04",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "25",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-04",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "12",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-04",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "23",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-04",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "10",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-05",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-05",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "19",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-05",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-05",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-06",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-06",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-06",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "13",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-06",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-07",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "22",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-07",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "33",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-07",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "20",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-07",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "31",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-08",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-08",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "16",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-08",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-08",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-09",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-09",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-09",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "10",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-09",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-10",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "19",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-10",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "30",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-10",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "17",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-10",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "28",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-11",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-11",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "13",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-11",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-11",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-12",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-12",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-12",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "31",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-12",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-13",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "16",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-13",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "27",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-13",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "14",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-13",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "25",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-14",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-14",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "10",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-14",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-14",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-15",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-15",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-15",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "28",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-15",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-16",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "13",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-16",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "24",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-16",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "11",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-16",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "22",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-17",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-17",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "31",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-17",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-17",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-18",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-18",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-18",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "25",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-18",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-19",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "10",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-19",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "21",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-19",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "32",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-19",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "19",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-20",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-20",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "28",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-20",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-20",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-21",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-21",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-21",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "22",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-21",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-22",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "31",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-22",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "18",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-22",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "29",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-22",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "16",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-23",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-23",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "25",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-23",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-23",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-24",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-24",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-24",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "19",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-24",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-25",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "28",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-25",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "15",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-25",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "26",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-25",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "13",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-26",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-26",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "22",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-26",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-26",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-27",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-27",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-27",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "16",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-27",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-28",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "25",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-28",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "12",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-28",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "23",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-28",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "10",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-29",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-29",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "19",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-29",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-29",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-30",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-30",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-30",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "13",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-30",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-31",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "22",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-31",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "33",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-31",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "20",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-07-31",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "31",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-01",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-01",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "16",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-01",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-01",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-02",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-02",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-02",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "10",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-02",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-03",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "19",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-03",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "30",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-03",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "17",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-03",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "28",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-04",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-04",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "13",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-04",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-04",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-05",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-05",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-05",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "31",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-05",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-06",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "16",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-06",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "27",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-06",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "14",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-06",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "25",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-07",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-07",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "10",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-07",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-07",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-08",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-08",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-08",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "28",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-08",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-09",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "13",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-09",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "24",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-09",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "11",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-09",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "22",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-10",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-10",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "31",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-10",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-10",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-11",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-11",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-11",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "25",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-11",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-12",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "10",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-12",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "21",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-12",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "32",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-12",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "19",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-13",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-13",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "28",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-13",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-13",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-14",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-14",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-14",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "22",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-14",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-15",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "31",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-15",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "18",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-15",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "29",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-15",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "16",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-16",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-16",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "25",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-16",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-16",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-17",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-17",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-17",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "19",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-17",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-18",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "28",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-18",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "15",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-18",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "26",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-18",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "13",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-19",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-19",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "22",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-19",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-19",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-20",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-20",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-20",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "16",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-20",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-21",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "25",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-21",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "12",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-21",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "23",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-21",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "10",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-22",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-22",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "19",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-22",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "30",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-22",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "17",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-23",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "15",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-23",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-23",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "13",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-23",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-24",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "22",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-24",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "33",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-24",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "20",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-24",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "31",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-25",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "29",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-25",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "16",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-25",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "27",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-25",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "14",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-26",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "12",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-26",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-26",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "10",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-26",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-27",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "19",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-27",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "30",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-27",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "17",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-27",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "28",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-28",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "26",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-28",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "13",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-28",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "24",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-28",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "11",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-29",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "33",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-29",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "20",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-29",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "31",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-29",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "18",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-30",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "16",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-30",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "27",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-30",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "14",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-30",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "25",
+      "payment_type": "Cash",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-31",
+      "item_id": "SAMPLE_01",
+      "quantity_sold": "23",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-31",
+      "item_id": "SAMPLE_02",
+      "quantity_sold": "10",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-31",
+      "item_id": "SAMPLE_03",
+      "quantity_sold": "21",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    },
+    {
+      "date": "2026-08-31",
+      "item_id": "SAMPLE_04",
+      "quantity_sold": "32",
+      "payment_type": "Card",
+      "status": "COMPLETED"
+    }
+  ],
+  "inventory": [
+    {
+      "date": "2026-06-01",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "70",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-01",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-01",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-01",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-02",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-02",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-02",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-02",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-03",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-03",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-03",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-03",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-04",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-04",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-04",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-04",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-05",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-05",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-05",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "92",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-05",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "101",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-06",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-06",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-06",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-06",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-07",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-07",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-07",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-07",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "103",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-08",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "77",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-08",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-08",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-08",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-09",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-09",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-09",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-09",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "70",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-10",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-10",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-10",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "97",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-10",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-11",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-11",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "89",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-11",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-11",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-12",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "81",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-12",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-12",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-12",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-13",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-13",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-13",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-13",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-14",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-14",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "92",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-14",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "101",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-14",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-15",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-15",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-15",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-15",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-16",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-16",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-16",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "103",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-16",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "77",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-17",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-17",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-17",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-17",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-18",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-18",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-18",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-18",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-19",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-19",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-19",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-19",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-20",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-20",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-20",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-20",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "81",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-21",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-21",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-21",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "73",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-21",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-22",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-22",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "100",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-22",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-22",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-23",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "92",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-23",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "101",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-23",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-23",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-24",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-24",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-24",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-24",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-25",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-25",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "103",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-25",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "77",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-25",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-26",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-26",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-26",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-26",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-27",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-27",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-27",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-27",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-28",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-28",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-28",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-28",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-29",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-29",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-29",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-29",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-30",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-30",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-30",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-06-30",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-01",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-01",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-01",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-01",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "92",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-02",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "101",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-02",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-02",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "84",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-02",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-03",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-03",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "76",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-03",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-03",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-04",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "103",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-04",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "77",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-04",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-04",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-05",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-05",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-05",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-05",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-06",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-06",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-06",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-06",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-07",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-07",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-07",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-07",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-08",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-08",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-08",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-08",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-09",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-09",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-09",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-09",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-10",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-10",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-10",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "92",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-10",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "101",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-11",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-11",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-11",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-11",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-12",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-12",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-12",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-12",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "103",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-13",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "77",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-13",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-13",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "95",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-13",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-14",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-14",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "87",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-14",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-14",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-15",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "79",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-15",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-15",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-15",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-16",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-16",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-16",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-16",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-17",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-17",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-17",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-17",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-18",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-18",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-18",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-18",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-19",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-19",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "92",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-19",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "101",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-19",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-20",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-20",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-20",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-20",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-21",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-21",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-21",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "103",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-21",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "77",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-22",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-22",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-22",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-22",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-23",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-23",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-23",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-23",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "79",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-24",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-24",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-24",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "71",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-24",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-25",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-25",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "98",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-25",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-25",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-26",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "90",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-26",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-26",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-26",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-27",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-27",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-27",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-27",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-28",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "92",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-28",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "101",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-28",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-28",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-29",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-29",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-29",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-29",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-30",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-30",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "103",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-30",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "77",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-30",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-31",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-31",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-31",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-07-31",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-01",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-01",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-01",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-01",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-02",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-02",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-02",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-02",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-03",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-03",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-03",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-03",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "90",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-04",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-04",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-04",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "82",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-04",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-05",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-05",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "74",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-05",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-05",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "92",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-06",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "101",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-06",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-06",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-06",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-07",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-07",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-07",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-07",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-08",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "103",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-08",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "77",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-08",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-08",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-09",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-09",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-09",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-09",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-10",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-10",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-10",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-10",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-11",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-11",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-11",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-11",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-12",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-12",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-12",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-12",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-13",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-13",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-13",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-13",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-14",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-14",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-14",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "92",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-14",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "101",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-15",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-15",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-15",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "93",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-15",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-16",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-16",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "85",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-16",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-16",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "103",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-17",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "77",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-17",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-17",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-17",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "104",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-18",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-18",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-18",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "96",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-18",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-19",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-19",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "88",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-19",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-19",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-20",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-20",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-20",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-20",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-21",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-21",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-21",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-21",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-22",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-22",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-22",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-22",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-23",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-23",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "92",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-23",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "101",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-23",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "75",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-24",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "84",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-24",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "93",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-24",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "102",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-24",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "76",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-25",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "85",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-25",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "94",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-25",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "103",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-25",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "77",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-26",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "86",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-26",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "95",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-26",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "104",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-26",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "78",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-27",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "87",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-27",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "96",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-27",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "70",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-27",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "79",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-28",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "88",
+      "wastage_units": "3",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-28",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "97",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-28",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "71",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-28",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "80",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-29",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "89",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-29",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "98",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-29",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "72",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-29",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "81",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-30",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "90",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-30",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "99",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-30",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "73",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-30",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "82",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-31",
+      "item_id": "SAMPLE_01",
+      "starting_stock": "91",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-31",
+      "item_id": "SAMPLE_02",
+      "starting_stock": "100",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-31",
+      "item_id": "SAMPLE_03",
+      "starting_stock": "74",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    },
+    {
+      "date": "2026-08-31",
+      "item_id": "SAMPLE_04",
+      "starting_stock": "83",
+      "wastage_units": "1",
+      "reorder_threshold": "24",
+      "supplier_lead_days": "2"
+    }
+  ]
+}

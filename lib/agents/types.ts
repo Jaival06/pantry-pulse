@@ -1,0 +1,12 @@
+export type Row = Record<string,string>;
+export type RawData = {menu:Row[];sales:Row[];inventory:Row[]};
+export type Item={item_id:string;item_name:string;category:string;selling_price:number;cost_price:number};
+export type Sale={date:string;item_id:string;quantity_sold:number;payment_type:string;status:string};
+export type Stock={date:string;item_id:string;starting_stock:number;wastage_units:number;reorder_threshold:number;supplier_lead_days:number};
+export type Issue={source:string;row:number;reason:string;item:string;date:string};
+export type CleanData={menu:Item[];sales:Sale[];inventory:Stock[];issues:Issue[];total:number;start:string;end:string};
+export const sum=(values:number[])=>values.reduce((a,b)=>a+b,0);
+export const mean=(values:number[])=>values.length?sum(values)/values.length:0;
+export const shift=(date:string,days:number)=>new Date(new Date(date+'T00:00:00Z').getTime()+days*86400000).toISOString().slice(0,10);
+export const weekday=(date:string)=>new Date(date+'T00:00:00Z').getUTCDay();
+export const round=(n:number)=>Math.round(n*100)/100;

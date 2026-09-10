@@ -1,0 +1,140 @@
+Agentic AI-Powered Business Intelligence Dashboard for
+Small Food & Beverage Enterprises
+Develop a multi-agent AI analytics dashboard that turns a small caf\351 or restaurant's sales and
+inventory logs into predictive insights.
+Objectives
+The objective of this project is to build an accessible, lightweight analytics dashboard for small
+independent food & beverage businesses \227 most of which run on thin margins (3\2268%) and lose
+10\22615% to wastage due to manual record-keeping and basic POS logs with no predictive insight. The
+system should ingest standard sales and inventory logs and deliver predictive demand forecasts,
+margin optimization insights, and proactive anomaly alerts, through a coordinated set of distinct AI
+agents working under a single orchestration layer.
+The system should accomplish the following:
+1. Multi-Agent Architecture (Mandatory)
+n
+ 
+ 
+Build the solution as a coordinated set of distinct AI agents, each with a clearly defined
+responsibility \227 not a single monolithic script or model.
+n
+ 
+ 
+Coordinate all agents under an orchestration layer.
+n
+ 
+ 
+Submissions without genuine agentic design (separate agents with defined roles, coordinated
+by an orchestrator) are evaluated as incomplete on this criterion regardless of output quality.
+2. Data Ingestion & Validation (Ingestion & Data Agent)
+n
+ 
+ 
+Ingest structured daily sales, wastage, and inventory data via CSV or manual input.
+n
+ 
+ 
+Validate incoming data and flag data quality issues.
+n
+ 
+ 
+Normalize data for use by downstream agents.
+3. Financial Analytics (Financial Analytics Agent)
+n
+ 
+ 
+Rank menu items by actual margin contribution rather than crude sales volume.
+n
+ 
+ 
+Surface underperforming high-cost items.
+4. Demand Forecasting (Demand Forecasting Agent)
+n
+ 
+ 
+Generate short-term (3\2267 day) item-level demand forecasts.
+n
+ 
+ 
+Trigger automated reorder threshold alerts.
+5. Anomaly Detection (Anomaly Detection Agent)
+n
+ 
+ 
+Flag unusual wastage spikes.
+n
+ 
+ 
+Flag stock-out risks.
+n
+ 
+ 
+Flag sudden sales dips.
+6. Conversational Insights (LLM-Powered Agent)
+n
+ 
+ 
+Provide a natural-language interface for non-technical owners.
+
+n
+ 
+ 
+Answer plain-language performance questions by querying and reasoning over the other
+agents' outputs.
+7. Orchestration Layer
+n
+ 
+ 
+Coordinate all agents.
+n
+ 
+ 
+Resolve conflicting signals between agents.
+n
+ 
+ 
+Consolidate outputs into a single dashboard view.
+8. Data Integration
+n
+ 
+ 
+Store ingested sales, wastage, and inventory data alongside each agent's outputs.
+n
+ 
+ 
+Retrieve and update data dynamically as new logs come in.
+9. User-Friendly Interface
+n
+ 
+ 
+Develop a simple dashboard that consolidates all agent outputs into one view.
+n
+ 
+ 
+Provide the conversational query interface as part of the same dashboard.
+Expected Output
+At the end of the project, a working multi-agent BI dashboard should be available, demonstrating
+genuine agentic design rather than a single model or script.
+The expected output should include: validated and normalized sales/inventory data, a margin-ranked
+view of menu items with underperforming items flagged, 3\2267 day item-level demand forecasts with
+reorder alerts, anomaly alerts for wastage spikes, stock-out risk, and sales dips, a natural-language
+query interface for the business owner, and a single consolidated dashboard view produced by the
+orchestration layer.
+A successful implementation can be demonstrated using a flow such as:
+Load Sales/Inventory Data 
+\256
+ Ingestion Agent Validates & Normalizes 
+\256
+ Financial Agent Ranks
+Items by Margin 
+\256
+ Demand Agent Forecasts & Alerts Reorder 
+\256
+ Anomaly Agent Flags Irregularities
+\256
+ Orchestrator Resolves & Consolidates 
+\256
+ Dashboard Displays Insights 
+\256
+ Owner Asks a Question
+\256
+ Conversational Agent Answers Using Other Agents' Outputs

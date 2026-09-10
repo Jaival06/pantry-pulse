@@ -1,0 +1,14 @@
+import {type CleanData,mean,sum,shift,weekday,round} from './types';
+import {dailySeries,type DemandAgent} from './demand';
+export type Alert={id:string;item_id:string;item:string;date:string;kind:string;severity:'high'|'medium';title:string;detail:string;source:string};
+export class AnomalyAgent{
+ readonly name='Anomaly Detection';
+ run(data:CleanData,forecasts:ReturnType<DemandAgent['run']>){const alerts:Alert[]=[];const add=(id:string,item_id:string,date:string,kind:string,severity:'high'|'medium',title:string,detail:string)=>alerts.push({id,item_id,item:data.menu.find(x=>x.item_id===item_id)!.item_name,date,kind,severity,title,detail,source:'Anomaly Detection'});
+ for(const item of data.menu){const inv=data.inventory.filter(x=>x.item_id===item.item_id);for(const row of inv.filter(x=>x.date>=shift(data.end,-29)&&x.date<=data.end)){const prior=inv.filter(x=>x.date<row.date&&x.date>=shift(row.date,-28));if(prior.length<7)continue;const avg=mean(prior.map(x=>x.wastage_units));const sd=Math.sqrt(mean(prior.map(x=>(x.wastage_units-avg)**2)));if(row.wastage_units>Math.max(avg+3*sd,avg*2,3))add(`waste:${item.item_id}:${row.date}`,item.item_id,row.date,'Wastage spike','high','Unusual wastage',`${row.wastage_units} units wasted versus a prior 28-day average of ${round(avg)}. Cost: ${round(row.wastage_units*item.cost_price)} CU.`);}
+ const sales=dailySeries(data,item.item_id);for(const row of sales.filter(x=>x.date>=shift(data.end,-29))){const prior=sales.filter(x=>x.date<row.date&&x.date>=shift(row.date,-56)&&weekday(x.date)===weekday(row.date));if(prior.length>=4){const baseline=mean(prior.map(x=>x.units));if(baseline>0&&row.units<baseline*.5)add(`dip:${item.item_id}:${row.date}`,item.item_id,row.date,'Sales dip','medium','Sales below the usual rhythm',`${row.units} units sold; ${round((1-row.units/baseline)*100)}% below the previous same-weekday average (${round(baseline)}). Check availability before assuming demand fell.`);}}
+ const f=forecasts.find(x=>x.item_id===item.item_id)!;
+ if(!f.stockReliable)add(`quality:${item.item_id}:${data.end}`,item.item_id,data.end,'Stock uncertainty','medium','Verify the inventory balance',f.balance!==null&&f.balance<0?`Estimated balance is ${f.balance} units. Sales plus wastage exceed starting stock; incoming deliveries are not recorded. Reorder advice is withheld.`:'The latest stock or same-day valid sales record is missing. Reorder advice is withheld.');
+ else if(f.coverage!==null&&f.coverage<f.lead)add(`stock:${item.item_id}:${data.end}`,item.item_id,data.end,'Stock-out risk','high','Stock may run out before delivery',`${f.closing} estimated units remaining (${f.coverage} days of demand), with a ${f.lead}-day supplier lead time.`);
+ }
+ return alerts.sort((a,b)=>b.date.localeCompare(a.date)||a.severity.localeCompare(b.severity));}
+}
